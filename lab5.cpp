@@ -33,7 +33,7 @@ int main(){
     Pharmacy pharmacy;
     int input;
     
-    while(1){
+    while(true){
         cout << "addMed (1), delMed (2), recalculation (3), sale (4), cheapest (5), outAll (6)\ninp: ";
         cin >> input;
         switch (input)
